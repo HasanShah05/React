@@ -35,3 +35,23 @@ dog.getInfo = function(){
 
 console.log(dog.breed);
 console.log(dog.getInfo());
+
+//
+
+let empty = []
+
+//
+
+let number = [1,2,3,4,5]
+
+//
+
+console.log(number[0]);
+console.log(number[2]);
+console.log(number[4]);
+
+//
+
+let mixedDataTypes = ['hasan', , 'shah', 20, {college: "lala's"}]
+console.log(mixedDataTypes.length);
+console.log(typeof mixedDataTypes[1]);
